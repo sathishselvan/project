@@ -1,0 +1,383 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meat charset="UTF-8">
+<link rel="stylesheet" href="css/style.css">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" Content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet" type="text/css">
+
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+<title>Double bed</title>
+</head>
+<body>
+
+<header>
+<nav id="header-nav" class="navbar navbar-default">
+<div class="container">
+<div class="navbar-header">
+<a href="index.html" class="pull-left visible-md visible-lg">
+<div id="logo-img"></div></a>
+<div class="navbar-brand">
+<a href="index.html"><h1>RESTAURANT</h1>
+<p><b>veg & non-veg</p></a>
+
+</div>
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div>
+<div id="collapsable-nav" class="collapse navbar-collapse">
+<ul id="nav-list" class="nav navbar-nav navbar-right">
+<li>
+<a href="../../../index.html">
+<span class="glyphicon glyphicon-home"></span>
+<br class="hidden-xs">Home</a>
+</li>
+<li>
+<a href="../../../menu/menu.html">
+<span class="glyphicon glyphicon-cutlery"></span>
+<br class="hidden-xs">menu</a>
+</li>
+<li class="active"> 
+<a href="#">
+<span class="glyphicon glyphicon-arrow-down">
+</span><br class="hidden-xs"> rooms</a></li>
+<li><a href="../../../../index2.html">
+<span class="glyphicon glyphicon-log-out"></span>
+<br class="hidden-xs">Log-out</a></li>
+<li id="phone" class="hidden-xs">
+<a href="tel:9080192578">
+<span>9445243572</span></a><div>* we deliver</div>
+</li></ul></div></div></nav></header>
+<div id="call-btn" class="visible-xs">
+<a class="btn" href="tel:9080192578">
+<span class="glyphicon glyphicon-earphone"></span>9445243572</a></div>
+<div id="xs-deliver" class="text-center visible-xs">*we deliver</div>
+
+
+<nav class="sun">
+<h1>Tap On Images</h1>
+
+
+
+
+
+<section class="row">
+<div class="menu-item-tile col-md-6">
+<div class="row">
+<div class="col-sm-5">
+<div class="menu-item-photo">
+<div>D01</div>
+
+
+<img id="myImage" src="images/2bed(!).jpg" alt="FEEL like A SNOW" style="width:100%;max-width:300px">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span id="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImage");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementById("close");
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+
+</div>
+<div class="menu-item-price">₹1200<span>(1 hour)</span>
+₹25000 <span>(1 DAY)</span></div>
+</div>
+<div class="menu-item-description col-sm-7">
+<h3 class="menu-item-title">LUXURY WITH ALL FACILITES WITH COMFORT</h3>
+<p class="menu-item-details">The room with double bed & full of comfort</p>
+</div>
+</div>
+<br class="visible-xs">
+</div>
+<div class="menu-item-tile col-md-6">
+<div class="row">
+<div class="col-sm-5">
+<div class="menu-item-photo">
+<div>D02</div>
+
+<img id="myImag" src="images/2 bed(3).jpg" alt="Good outer looking" style="width:100%;max-width:300px">
+<div id="myModal" class="modal">
+
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+
+  <div id="caption"></div>
+</div>
+
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImag");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){ 
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+</div>
+
+
+<div class="menu-item-price">₹1050<span>(1 HOUR)</span>
+₹25000 <span>(1 DAY)</span></div>
+</div>
+<div class="menu-item-description col-sm-7">
+<h3 class="menu-item-title">LUXURY WITH ALL FACILITES WITH COMFORT</h3>
+<p class="menu-item-details">The room with double bed & full of comfort</p>
+</div>
+</div>
+<br class="visible-xs">
+</div>
+<div class="menu-item-tile col-md-6">
+<div class="row">
+<div class="col-sm-5">
+<div class="menu-item-photo">
+<div>D03</div>
+
+
+<img id="myIma" src="images/2 bed.jpg" alt="Feel like a comfort" style="width:100%;max-width:300px">
+<div id="myModal" class="modal">
+
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+
+  <div id="caption"></div>
+</div>
+
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myIma");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){ 
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+
+</div>
+<div class="menu-item-price">₹1400<span>(1 HOUR)</span>
+₹22000 <span>(1 DAY)</span></div>
+</div>
+<div class="menu-item-description col-sm-7">
+<h3 class="menu-item-title">LUXURY WITH ALL FACILITES WITH COMFORT</h3>
+<p class="menu-item-details">The room with double bed & full of comfort</p>
+</div>
+</div>
+<br class="visible-xs">
+</div>
+<div class="menu-item-tile col-md-6">
+<div class="row">
+<div class="col-sm-5">
+<div class="menu-item-photo">
+<div>D04</div>
+
+<img id="myIm" src="images/2bed(4).jpg" alt="FEEL FREE LIKE YOUR HOME" style="width:100%;max-width:300px">
+<div id="myModal" class="modal">
+
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+
+  <div id="caption"></div>
+</div>
+
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myIm");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){ 
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+ 	
+</div>
+<div class="menu-item-price">₹1900<span>(1 HOUR)</span>
+₹29000 <span>(1 DAY)</span></div>
+</div>
+<div class="menu-item-description col-sm-7">
+<h3 class="menu-item-title">LUXURY WITH ALL FACILITES WITH COMFORT</h3>
+<p class="menu-item-details">The room with double bed & full of comfort</p>
+</div>
+</div>
+<br class="visible-xs">
+</div>
+<div class="menu-item-tile col-md-6">
+<div class="row">
+<div class="col-sm-5">
+<div class="menu-item-photo">
+<div>D05</div>
+
+<img id="myI" src="images/bed.jpg" alt="GOOD SURROUNDING" style="width:100%;max-width:300px">
+<div id="myModal" class="modal">
+
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+
+  <div id="caption"></div>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myI");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){ 
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+
+
+</div>
+<div class="menu-item-price">₹1300<span>(1 HOUR)</span>
+₹30020 <span>(1 DAY)</span></div>
+</div>
+<div class="menu-item-description col-sm-7">
+<h3 class="menu-item-title">LUXURY WITH ALL FACILITES WITH COMFORT</h3>
+<p class="menu-item-details">The room with double bed & full of comfort</p>
+</div>
+</div>
+<br class="visible-xs">
+</div>
+<div class="menu-item-tile col-md-6">
+<div class="row">
+<div class="col-sm-5">
+<div class="menu-item-photo">
+<div>D06</div>
+
+
+<img id="my" src="images/2 bed(3).jpg" alt="Clouds At Your Room" style="width:100%;max-width:300px">
+<div id="myModal" class="modal">
+
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+
+  <div id="caption"></div>
+</div>
+
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("my");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){ 
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+</div>
+<div class="menu-item-price">₹1900<span>(1 HOUR)</span>
+₹39820 <span>(1 DAY)</span></div>
+</div>
+<div class="menu-item-description col-sm-7">
+<h3 class="menu-item-title">LUXURY WITH ALL FACILITES WITH COMFORT</h3>
+<p class="menu-item-details">The room with double bed & full of comfort</p>
+</div>
+</div>
+<br class="visible-xs">
+</div>
+</body>
+</html>
